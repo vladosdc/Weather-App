@@ -1,6 +1,6 @@
 # Weather App
 
-### Stack: React, Redux, SASS
+### Stack: React, Redux, SCSS
 
 ### Demo - https://weather-app-vladosdc.vercel.app/
 
