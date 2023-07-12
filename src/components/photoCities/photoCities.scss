@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+.photo-city {
+  font-family: 'Geologica', sans-serif;
+
+
+  &-loading {
+    margin-top: 40px;
+    font-family: 'Geologica', sans-serif;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  &__container-loading {
+    display: none;
+  }
+
+  &__loading-background {
+    background-color: #141e37;
+    border-radius: 30px;
+    width: 900px;
+    height: 300px;
+  }
+
+
+  .photo-city__background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 30px;
+    width: 900px;
+    height: 300px;
+  }
+
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    max-width: 100%;
+  }
+
+  &__info-longCityName {
+    font-size: 50px;
+  }
+
+
+  &__temperature {
+
+  }
+
+
+  &__info {
+    margin: 0 35px;
+    color: white;
+  }
+
+  &__info-city {
+    font-size: 60px;
+  }
+
+  &__info-country {
+    position: relative;
+    bottom: 40px;
+    font-size: 30px;
+  }
+
+  &__main-info-main-table {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-info-table1 {
+
+  }
+
+  .main-info-table2 {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  &__icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  &__info-temperature {
+    font-size: 37px;
+  }
+
+
+  @media screen and (max-width: 850px) {
+
+
+
+    &__info-temperature {
+      font-size: 30px;
+    }
+    &__icon {
+      width: 50px;
+      height: 50px;
+    }
+
+    &__info-city {
+      position: relative;
+      bottom: 15px;
+      font-size: 45px;
+    }
+
+    &__info-longCityName {
+      font-size: 45px;
+      padding-bottom: 15px;
+    }
+
+    &__info-country {
+      position: relative;
+      bottom: 60px;
+      font-size: 25px;
+    }
+
+    &__main-info-main-table {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+
+    .main-info-table1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: initial;
+    }
+
+    .main-info-table2 {
+      position: relative;
+      bottom: 70px;
+      display: flex;
+      align-items: center;
+      margin-left: initial;
+    }
+
+
+  }
+
+
+  @media screen and (max-width: 670px) {
+    &__info-longCityName {
+      font-size: 40px;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+
+    .photo-city__background {
+      width: 900px;
+      height: 230px;
+    }
+
+    &__loading-background {
+      width: 900px;
+      height: 230px;
+    }
+
+
+    &__info-temperature {
+      font-size: 25px;
+    }
+    &__icon {
+      width: 45px;
+      height: 45px;
+    }
+
+    &__main-info-main-table {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+    }
+
+
+    .main-info-table1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: initial;
+    }
+
+    .main-info-table2 {
+      position: relative;
+      bottom: 90px;
+      display: flex;
+      align-items: center;
+      margin-left: initial;
+    }
+
+
+  }
+
+  @media screen and (max-width: 450px) {
+    &__info-city {
+      font-size: 38px;
+    }
+
+    &__info-longCityName {
+      font-size: 30px;
+    }
+
+    &__info-country {
+      font-size: 23px;
+    }
+    &__icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+
+    &__info-longCityName {
+      font-size: 25px;
+      padding-bottom: 30px;
+    }
+
+    &__info-temperature {
+      font-size: 22px;
+    }
+    &__icon {
+      width: 37px;
+      height: 37px;
+    }
+
+
+  }
+
+  @media screen and (max-width: 305px) {
+
+    &__info-longCityName {
+      font-size: 20px;
+      padding-bottom: 30px;
+    }
+
+    &__info-temperature {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 200px) {
+    .photo-city__background {
+      width: 100%;
+      height: 120px;
+    }
+
+    &__loading-background {
+      width: 100%;
+      height: 120px;
+    }
+
+    &__info-temperature {
+      font-size: 13px;
+    }
+
+    .main-info-table2 {
+      bottom: 70px;
+    }
+
+    &__info-longCityName {
+      font-size: 14px;
+      padding-bottom: 30px;
+    }
+
+    &__info-city {
+      position: relative;
+      bottom: 15px;
+      font-size: 22px;
+    }
+
+    &__info-country {
+      position: relative;
+      bottom: 50px;
+      font-size: 18px;
+    }
+    &__icon {
+      width: 30px;
+      height: 30px;
+    }
+
+  }
+  @media screen and (max-width: 170px) {
+    &__info-temperature {
+      font-size: 10px;
+    }
+
+    &__info-city {
+      position: relative;
+      bottom: 15px;
+      font-size: 18px;
+    }
+
+    &__info-country {
+      position: relative;
+      bottom: 50px;
+      font-size: 16px;
+    }
+  }
+
+}

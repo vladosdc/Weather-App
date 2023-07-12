@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+.search {
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    margin-top: 10px;
+  }
+
+  &__field {
+    transition: 600ms;
+    font-family: 'Geologica', sans-serif;
+    font-size: 18px;
+    width: 312px;
+    height: 42px;
+    border-radius: 20px;
+    background-image: url("../../resources/searchField.png");
+    background-position: 2px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    border: none;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+
+  &__field:focus {
+    outline: none;
+    box-shadow: 1px 1px 5px 2px dodgerblue;
+    transition: 400ms;
+  }
+
+
+  @media screen and (max-width: 320px) {
+    &__field {
+      width: 280px;
+    }
+  }
+
+  @media screen and (max-width: 290px) {
+    &__field {
+      width: 100%;
+    }
+  }
+
+}

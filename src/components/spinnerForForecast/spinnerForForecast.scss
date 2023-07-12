@@ -1,0 +1,38 @@
+.spinner-for-forecast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+
+
+  &_img {
+    width: 110px;
+    height: 110px;
+  }
+
+  @media screen and (max-width: 1030px) {
+    & {
+      height: 160px;
+    }
+  }
+
+  @media screen and (max-width: 250px) {
+    & {
+      height: 180px;
+    }
+  }
+
+  @media screen and (max-width: 170px) {
+    &_img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  @media screen and (max-width: 165px) {
+    & {
+      height: 180px;
+    }
+  }
+
+}

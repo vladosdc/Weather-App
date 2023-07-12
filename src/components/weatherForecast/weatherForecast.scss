@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+.weather-forecast {
+  margin-top: 70px;
+  font-family: 'Geologica', sans-serif;
+
+  &__container {
+
+  }
+
+  &__title {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  &__main-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  @media screen and (max-width: 898px) {
+
+    &__main-table {
+      flex-direction: column;
+      gap: initial;
+    }
+
+  }
+
+  @media screen and (max-width: 200px) {
+    &__title {
+      font-size: 20px;
+    }
+  }
+  & {
+    margin-top: 20px;
+  }
+
+  }
