@@ -6,9 +6,9 @@ import {
 } from "../actions/actions";
 
 const SearchPhotoCityServices = ({searchValue}) => {
+    console.log("used")
     const photoApi = process.env.REACT_APP_PHOTO_API_KEY
     const dispatch = useDispatch();
-
     useEffect(() => {
 
             if (searchValue.trim() === "") {

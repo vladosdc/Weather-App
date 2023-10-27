@@ -12,7 +12,7 @@ import {
 const SearchField = () => {
     const dispatch = useDispatch()
 
-    const [searchValue, setSearchValue] = useState('Kiev')
+    const [searchValue, setSearchValue] = useState('Киев')
     const [value, setValue] = useState('Search...')
 
     const requestError = useSelector(state => state.requestError)
